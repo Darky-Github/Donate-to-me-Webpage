@@ -1,0 +1,9 @@
+Crypto Addresses
+
+BTC: bc1qc90pzsd5k8c3l8dxvnyy4tqyk5nfh86j4pjxls
+ETH: 0xf20d110E7b1b7fF4d981E09Ad7b6ca37EAcFf4Cc
+DOGE: DHbYnARdyJMYM9nmBkzRcRcGckGcgx7h6h
+FIL: f16unmicgbsvpo6ibepkx3vqofgn3nrqxnma4y4gy
+LTC: ltc1qqa9eamfsslk95wldlmqqy9e3szcq2ldqeswqx6
+SOL: 8dBz2w3bNzbFDWvGGYmriosjyzVuQUGqfEYUbDip3rvQ
+DOT: 123n2RJz5GoiwRiZEEGMHS4SyPsG8Dg6tJ59p2AJaxCUNDj4
