@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Darky-Github</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .crypto {
+            margin: 20px 0;
+        }
+        .crypto-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #555;
+        }
+        .crypto-address {
+            font-size: 14px;
+            color: #888;
+            word-break: break-word;
+            margin-top: 5px;
+        }
+        .crypto-address:hover {
+            cursor: pointer;
+            color: #333;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Donate to Darky-Github</h1>
+        <p>Support my projects by donating with cryptocurrency.</p>
+        <div class="crypto">
+            <p class="crypto-name">Bitcoin</p>
+            <p class="crypto-address" onclick="copyToClipboard('bc1qc90pzsd5k8c3l8dxvnyy4tqyk5nfh86j4pjxls')">bc1qc90pzsd5k8c3l8dxvnyy4tqyk5nfh86j4pjxls</p>
+        </div>
+        <div class="crypto">
+            <p class="crypto-name">Ethereum</p>
+            <p class="crypto-address" onclick="copyToClipboard('0xf20d110E7b1b7fF4d981E09Ad7b6ca37EAcFf4Cc')">0xf20d110E7b1b7fF4d981E09Ad7b6ca37EAcFf4Cc</p>
+        </div>
+        <div class="crypto">
+            <p class="crypto-name">Dogecoin</p>
+            <p class="crypto-address" onclick="copyToClipboard('DHbYnARdyJMYM9nmBkzRcRcGckGcgx7h6h')">DHbYnARdyJMYM9nmBkzRcRcGckGcgx7h6h</p>
+        </div>
+        <div class="crypto">
+            <p class="crypto-name">Filecoin</p>
+            <p class="crypto-address" onclick="copyToClipboard('f16unmicgbsvpo6ibepkx3vqofgn3nrqxnma4y4gy')">f16unmicgbsvpo6ibepkx3vqofgn3nrqxnma4y4gy</p>
+        </div>
+        <div class="crypto">
+            <p class="crypto-name">Litecoin</p>
+            <p class="crypto-address" onclick="copyToClipboard('ltc1qqa9eamfsslk95wldlmqqy9e3szcq2ldqeswqx6')">ltc1qqa9eamfsslk95wldlmqqy9e3szcq2ldqeswqx6</p>
+        </div>
+        <div class="crypto">
+            <p class="crypto-name">Solana</p>
+            <p class="crypto-address" onclick="copyToClipboard('8dBz2w3bNzbFDWvGGYmriosjyzVuQUGqfEYUbDip3rvQ')">8dBz2w3bNzbFDWvGGYmriosjyzVuQUGqfEYUbDip3rvQ</p>
+        </div>
+        <div class="crypto">
+            <p class="crypto-name">Polkadot</p>
+            <p class="crypto-address" onclick="copyToClipboard('123n2RJz5GoiwRiZEEGMHS4SyPsG8Dg6tJ59p2AJaxCUNDj4')">123n2RJz5GoiwRiZEEGMHS4SyPsG8Dg6tJ59p2AJaxCUNDj4</p>
+        </div>
+        <footer>
+            Made with ❤️ by Darky-Github
+        </footer>
+    </div>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert(`Copied: ${text}`);
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
+            });
+        }
+    </script>
+</body>
+</html>
